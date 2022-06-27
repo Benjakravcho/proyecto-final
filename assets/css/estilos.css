@@ -23,6 +23,7 @@ html,body {
     height: 100vh;
 }
 
+
 div#img {
     display: flex;
     margin-left: 680px;
@@ -83,7 +84,12 @@ h2 {
     font-size: 24px;
     font-family: monospace;
 }
-
+p{
+    color: #fff;
+}
+li {
+    color: #fff;
+}
 #text {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-bottom: 150px;
@@ -103,9 +109,6 @@ h2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#flex {
-    margin-left: 60px;
-}
 
 #flex2 {
     display: flex;
@@ -131,4 +134,12 @@ section.info {
 aside {
     grid-area: publicidad;
     background-color: #34495E;
+}
+ul.flexbox {
+    display: flex;
+    flex-direction: row;
+}
+.video2 {
+    display: flex;
+    flex-direction: row;
 }
