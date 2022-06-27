@@ -57,12 +57,15 @@ header nav ul li {
     list-style-type: none;
     margin: 0 15px;
     color: #fff;
+    text-decoration: none;
 }
 
 header nav ul li a {
     font-size: 22px;
+    color: #fff;
     text-decoration: none;
 }
+
 
 section {
     color: #fff;
@@ -117,6 +120,7 @@ div#flex2 {
 footer {
     grid-area: footer;
     background-color: #34495E ;
+    color: #fff;
 }
 section.intro {
     grid-area: intro;
