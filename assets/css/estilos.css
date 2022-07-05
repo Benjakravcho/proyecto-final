@@ -9,9 +9,10 @@ header {
     background-color: #1B2631;
 }
 h1 {
-    display: inline;
+    display: flex;
+    padding-top: 45px;
+    display: inline-block;
     color: #fff;
-    padding: 80px;
 }
 ul {
     display: inline-block;
@@ -38,11 +39,6 @@ h2 {
     height: 320px;
 }
 
-#img2 {
-    height: 340px;
-    width: 480px;
-    margin-left: 50px;
-}
 #margin {
     margin-left: 50px;
 }
@@ -51,8 +47,38 @@ p {
     margin-bottom: 0px;
     font-family: sans-serif;
     margin-left: 80px;
-    width: 320px;
     color: #fff;
+}
+
+.card {
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 83px;
+    width: 400px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#ancho {
+    margin-left: 100px;
+}
+#left {
+    margin-left: 100px;
+}
+.card-text {
+    display: flexbox;
+    color: #2E4053;
+    text-align: left;
+    margin: 0;
+}
+
+.card-body {
+    display: flexbox;
+    color: #2E4053;
+    text-align: left;
+    margin: 0;
 }
 
 #text {
@@ -62,22 +88,19 @@ p {
     width: 480px;
 }
 
-#text2 {
-    display: flex;
-    margin-left: 10px;
-    text-align: left;
-    width: 480px;
-    font-family: sans-serif;
-    color: #fff;
+
+.navbar {
+    padding: 0;
 }
 
-#display {
+.display2 {
+    display: inline-block;
     display: flex;
-    margin-top: 5px;
-    margin-bottom: 6px;
-    margin-left: 80px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #fff;
+    justify-content: right;
+    align-items: center;
+    padding-right: 20px;
+    margin-top: -50px;
+    padding-bottom: 50px;
 }
 
 footer {
