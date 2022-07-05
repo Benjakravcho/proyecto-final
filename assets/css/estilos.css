@@ -88,6 +88,18 @@ p {
     width: 480px;
 }
 
+#font {
+    display: flex;
+    text-align: center;
+    font-size: 100px;
+}
+
+#width {
+    display: flex;
+    margin-left: 230px;
+    width: 800px;
+    background-color: #AED6F1;
+}
 
 .navbar {
     padding: 0;
