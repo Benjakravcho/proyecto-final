@@ -1,0 +1,33 @@
+header {
+    
+    h1 {
+        background-color: $primary;
+        font-family: $font-principal;
+        color: $text-color;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+    li {
+        display: inline-block;
+        color: $text-color;
+        margin: 0 20px;
+        padding-right: $padding-rigth;
+    }
+}
+
+div.card {
+    margin-bottom: 160px;
+    margin-top: 200px;
+
+    h3 {
+        font-size: $font;
+    }
+
+    .card-text {
+        color: $text-color;
+        font-size: $font-size;
+        font-family: $font-p;
+    }
+}
