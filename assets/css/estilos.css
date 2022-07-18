@@ -38,6 +38,7 @@ header {
     margin-bottom: 80px;
     background-color: #1B2631;
 }
+
 body {
     background-color: #2E4053;
 }
@@ -102,7 +103,7 @@ p {
 }    
 
 @media (max-width: 530px) and (min-width: 300px) {
-    #size {
+    .size {
         font-size: 3.25rem;
         margin-bottom: -90px;
     }
@@ -140,6 +141,24 @@ p {
     }
 } 
 
+@media (max-width: 670px) and (min-width: 300px) {
+    .header {
+        width: 640px;
+    }
+    .display-3 {
+        font-size: 4.38rem;
+    }
+    .size {
+        margin-bottom: 100px;
+    }
+} 
+
+@media screen and (max-width: 299px) {
+    .header {
+        width: 640px;
+    }
+}
+
 
 @media screen and (max-width: 300px) {
     #margin-top {
@@ -147,6 +166,9 @@ p {
     }
     .responsive {
             width: 100%;
+    }
+    .display-3 {
+        font-size: 2.26rem;
     }
 }
 
@@ -273,3 +295,21 @@ footer {
     display: flex;
     padding-bottom: 10px;
 }
+
+.display-3 {
+    color: #1B2631;
+
+} 
+
+.jumbotron {
+    margin-top: 100px;
+}
+
+.lead {
+    color: #2E4053;
+}
+
+#color-contacto {
+    color:#2E4053;
+}
+
