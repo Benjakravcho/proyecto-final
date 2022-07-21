@@ -15,7 +15,7 @@ html,body{
     "img img img"
     "footer footer footer"
     ;
-    grid-template-rows: 240px 300px 300px 60px; 
+     
     grid-template-columns: auto auto auto auto;
     grid-column-gap: 5px;
     grid-row-gap: 100px;
@@ -105,7 +105,7 @@ p {
 @media (max-width: 530px) and (min-width: 300px) {
     .size {
         font-size: 3.25rem;
-        margin-bottom: -90px;
+        
     }
 }   
 
@@ -148,9 +148,7 @@ p {
     .display-3 {
         font-size: 4.38rem;
     }
-    .size {
-        margin-bottom: 100px;
-    }
+    
 } 
 
 @media screen and (max-width: 299px) {
@@ -172,7 +170,12 @@ p {
     }
 }
 
-
+@media (max-width: 804px) and (min-width: 300px) {
+    .responsive {
+        width: 100%;
+        padding-right: 15px;
+}  
+}
 
 /* le puse display:none-para a futuro cambiarlo */
 #none {
@@ -238,7 +241,8 @@ section {
     display: flexbox;
     color: #2E4053;
     text-align: left;
-    
+    padding-left: 0;
+    padding-top: 0;
 }
 
 #text {
