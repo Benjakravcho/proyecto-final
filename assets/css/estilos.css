@@ -207,10 +207,6 @@ div.container-fluid {
     margin-top: 200px;
 }
 
-#responsive {
-
-}
-
 h3 {
     color: #fff;
     display: flex;
@@ -220,8 +216,20 @@ h3 {
     margin-bottom: 80px;
     text-align: center;
     align-items: center;
-    -webkit-box-shadow: 5px 5px 15px 5px #A2D9CE; 
-box-shadow: 5px 5px 15px 5px  #A2D9CE;
+}
+
+.size {
+    margin-left: 165px;
+    width: 1000px;
+}
+
+#alto {
+    margin-top: 15px;
+}
+
+.card {
+    margin: 10px;
+    margin-top: 200px;
 }
 
 h5 {
@@ -232,8 +240,6 @@ h5 {
     font-size: 6.25rem;
     text-align: center;
     align-items: center;
-    -webkit-box-shadow: 5px 5px 15px 5px #A2D9CE; 
-box-shadow: 5px 5px 15px 5px  #A2D9CE;
 }
 
 section {
