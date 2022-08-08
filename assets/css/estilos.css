@@ -130,7 +130,9 @@ p {
     .display-3 {
         font-size: 4.38rem;
     }
-    
+    h1 {
+        font-size: 1.8rem;
+    }
 } 
 
 @media screen and (max-width: 299px) {
